@@ -1,4 +1,4 @@
-FROM python:3.8.2-slim
+FROM python:3.14.0a1-slim
 
 # note: a single RUN to avoid too many image layers being produced
 RUN apt-get update \
